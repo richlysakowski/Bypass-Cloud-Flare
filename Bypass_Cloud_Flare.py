@@ -8,10 +8,11 @@ import socket
 import sys
 import time
 from colorama import Fore
+
 def __start__():
 
-    print(Fore.RED+"\n [!] Plase Enter The Target Website Address")
-    print(Fore.RED+"\n [!] for exampel : test.com\n")
+    print(Fore.RED+"\n [!] Please Enter The Target Website Address")
+    print(Fore.RED+"\n [!] for example : test.com\n")
     subdom = ['ftp', 'cpanel', 'webmail', 'localhost','news','resources','insights','articles', 'local','landing', 'mysql', 'forum', 'driect-connect', 'blog', 'vb', 'forums', 'home', 'direct', 'forums', 'mail', 'access', 'admin', 'administrator', 'email', 'downloads', 'ssh', 'owa', 'bbs', 'webmin', 'paralel', 'parallels', 'www0', 'www', 'www1', 'www2', 'www3', 'www4', 'www5', 'shop', 'api', 'blogs', 'test', 'mx1', 'cdn', 'mysql', 'mail1', 'secure', 'server', 'ns1', 'ns2', 'smtp', 'vpn', 'm', 'mail2', 'postal', 'support', 'web', 'dev']
 
     site = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"tahat80"+Fore.BLUE+"/"+Fore.WHITE+"Bypass-CloudFlare"+Fore.RED+"""]
@@ -23,6 +24,7 @@ def __start__():
             sys.exit()
         except:
             return
+        
     for sub in subdom:
         time.sleep(5)
         try:
